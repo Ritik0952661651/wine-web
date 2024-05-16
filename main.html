@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Rubik+Doodle+Shadow&display=swap"
-      rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
-      rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
-      rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css"/>
+  <link rel="stylesheet" href="scrol.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <title>VILLENIOR WINES</title>
+  <link rel="website icon" type="png" href="web logo.png"/>
+  <script src="https://kit.fontawesome.com/b97a98aa71.js" crossorigin="anonymous"></script>
+</head>
 
-    <title>VILLENIOR WINES</title>
-    <link rel="website icon" type="png" href="web logo.png"/>
-  </head>
   <body>
     <!-- ------------------------nav --------------------------- -->
     <div id="header">
       <div class="container">
-        <nav>
+        <nav class="sm md">
           <img
             src="img logo.png"
-            class="logo"
-          />
+            class="logo"/>
           <ul>
             <li class="Home"><a href="main.html">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="/contact/contact.html">CONTACT</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li><a href="#">SHOPS</a></li>
+            <li><a href="about.html" target="_blank">ABOUT</a></li>
+            <li><a href="/contact/contact.html" target="_blank">CONTACT</a></li>
+            <li><a href="opps.html" target="_blank">EVENTS</a></li>
+            
           </ul>
           <!-- ---------------------------------nav------------------------------------------------- -->
-          <ul class="sec-nav">
+          <ul class="sec-nav" >
             <li>
-              <a id="secondary" href="#">
+              <a id="secondary" href="opps.html" target="_blank">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +83,7 @@
             </li>
 
             <li class="search-icon">
-              <a id="secondary" href="#" target="_blank">
+              <a id="secondary" href="opps.html" target="_blank">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -150,5 +139,178 @@
             </div>
       </div>
       <!-- ---------------------------message section end here---------------------------- -->
-  </body>
+
+      <section>
+        <div class="card-1st">
+          <div class="dev">
+          <img src="grapes icon.png" class="grapes">
+          <div class="text-1st">
+          <p class="cur">CURRENT RELEASE</p>
+<p class="we">
+         <span> We thrive in </span> <br>making fine wines <br> that enrich the
+          <br> taste & soul.
+        </p>
+      </div>
+      </div>
+  </div>
+        <img src="wine bottles.png" class="wine-img">
+      </section>
+<!-- ------------------------------------------------------------ -->
+
+
+<section class="count">
+    <img src="red-bottle-dark.png" class="red-bottle-dark">
+        <div class="second-card">
+       <p class="red"> VARIETIES</p>
+       <h1 class="h1">The Red</h1>
+      <ul class="under">
+        <li>Cabernet Sauvignon</li>
+        <li>Merlot</li>
+        <li>Pinot Noir</li>
+      </ul>
+      <button type="submit" class="login-bt">View Product</button>  
+    </div>
+  
+  <div class="counters">
+    <div class="counter">
+        <h1><span data-count="5">0</span></h1>
+        <h3>VARIETALS</h3>
+    </div>
+  
+    <div class="counter" >
+        <h1><span data-count="160">0</span></h1>
+        <h3>WINE PRODUCED</h3>
+    </div>
+  
+    <div class="counter">
+        <h1><span data-count="50">0</span></h1>
+        <h3>AWARDS WON</h3>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="second-count">
+  <div class="second-card">
+      <p class="red"> VARIETIES</p>
+      <h1 class="h1">The Whites</h1>
+     <ul class="under">
+       <li>Chardonnay</li>
+       <li>Sauvignon Blanc
+      </li>
+       <li>Riesling</li>
+     </ul>
+     <button type="submit" class="login-bt">View Product</button>  
+   </div>
+  </div>
+  <img src="white-bottle-dark.png" class="red-bottle-dark white">
+  
+  <div class="counters num">
+    <div class="counter">
+        <h1><span data-count="5">0</span></h1>
+        <h3>VARIETALS</h3>
+    </div>
+  
+    <div class="counter">
+        <h1><span data-count="160">0</span></h1>
+        <h3>WINE PRODUCED</h3>
+    </div>
+  
+    <div class="counter">
+        <h1><span data-count="50">0</span></h1>
+        <h3>AWARDS WON</h3>
+    </div>
+  </div>
+</section>
+<!-- -------------------------------------------------------------- -->
+
+<div class="template"> 
+
+    <div class="box">
+      
+      <img src="slid/slide 6.jpg" class="slide-6">
+      <div class="tem">
+              <div class="text-card">
+               <h3> THE ESTATE </h3>
+
+<h1>Tasting & Tours</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing.
+Cras vel iaculis urna. Cras bibendum ex id dolor facilisis
+  in tempor lacus dapibus.</p>
+              </div>
+              <button type="submit" class="login-bt card-bt">READ MORE</button>
+                
+      </div>
+    </div>
+
+    
+    <div class=" box second-box">
+        <div class="tem">
+            <div class="text-card second-text-card">
+                <h3> THE ESTATE</h3>
+                <h1>Weddings & Private Events</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Cras vel iaculis urna. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, sequi.</p>
+                <button type="submit" class="login-bt card-bt second-bt ">READ MORE</button>
+            </div>
+        </div>
+        <img src="slid/weddings_dark.jpg" class="slide-6">
+    </div>
+  </div>
+
+  <div class="third-section">
+    <div class="estate">
+      
+    <h3>THE ESTATE</h3>
+    <h1>Visit The Estate</h1>
+    <p>Lorem ipsum dolor. Voluptatum deserunt tenetur iure voluptas, illo quidem minima, impedit <br> quos ducimus placeat ut?</p>
+    <button type="submit" class="login-bt card-bt second-bt gallery-bt">GALLERY</button>
+    <button type="submit" class="login-bt card-bt second-bt gallery-bt gallery">THE ESTATE</button>
+  </div>
+  </div>
+  <div class="newsletter">
+    <h3>BE CONNECTED</h3>
+    <h1>Join Our Newsletter</h1>
+    
+      <div class="input-group">
+        <input type="email" id="email address" placeholder="Email Address">
+        
+        <button type="submit" class="newsletter-bt"> SIGN UP</button>
+      </div>
+    
+  </div>
+  
+<div class="footer">
+  <div class="text">
+  <p class="fot-text">VILLENOIR PROMISE</p>
+  <h1 class="fot-text-1">We make good wines</h1>
+</div>
+<div class="second-footer">
+  <div class="social-icons">
+   <div class="first-nav-footer">
+    <ul>
+      <li><a href="#"></a>FAQ</li>
+      <li><a href="#"></a>TERMS</li>
+      <li><a href="#"></a>PRIVACY</li>
+      <li><a href="#"></a>RETURNS</li>
+    </ul>
+   </div>
+    
+    <p class="copyright">&copy; 2024 VILLENOIR. ALL RIGHTS RESERVED</p>
+    <a href="#"><i class="fa-brands fa-behance"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<script src="count.js"></script>
+</body>
 </html>
